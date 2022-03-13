@@ -23,7 +23,7 @@
 
 
           if(isset($_GET['delete'])){
-            // $id = $_GET['delete'];
+            $id = $_GET['delete'];
             // echo $id;
              $query ="UPDATE history SET active=0 WHERE id=$id";
             // $query ="DELETE FROM patients WHERE id=$id";
